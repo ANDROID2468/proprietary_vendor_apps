@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.kodarkooperativet.blackplayerfree">
+        <!-- Storage -->
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    </exception>
+    <exception package="com.mixplorer">
+        <!-- Storage -->
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    </exception>
+</exceptions>

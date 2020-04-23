@@ -17,6 +17,9 @@
 
 LOCAL_PATH := vendor/apps
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/etc/default-permissions/propapps.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/propapps.xml 
+
 PRODUCT_PACKAGES += \
     BlackPlayer \
     MiXplorer \
