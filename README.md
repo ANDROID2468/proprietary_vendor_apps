@@ -11,8 +11,8 @@ This repository of proprietary apps to include when building LOS.
 ## Incorporate this project into build
 in .repo/local_manifests/roomservice.xml, add
  ```
-  <remote fetch="https://gitlab.com/" name="gitlab" />
-  <project name="ANDROID2468/proprietary_vendor_apps" path="vendor/app" remote="gitlab" revision="master" />
+  <remote fetch="https://github.com/" name="github" />
+  <project name="ANDROID2468/proprietary_vendor_apps" path="vendor/app" remote="github" revision="master" />
  ```
 
 add `$(call inherit-product-if-exists, vendor/apps/apps.mk)` to  ex: device/deviceVendor/deviceName/aosp_deviceName.mk
