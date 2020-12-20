@@ -1,3 +1,4 @@
+# MiXplorer_v6.49.3_B20080720
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
