@@ -23,4 +23,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     BlackPlayer \
     MiXplorer \
-    XdaLabs
+    Xda
